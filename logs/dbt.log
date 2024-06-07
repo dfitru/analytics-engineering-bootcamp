@@ -1,0 +1,19 @@
+[0m17:01:37.558074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9EE620990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9ED2CB050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9EE603A10>]}
+
+
+============================== 17:01:37.563084 | b1f19a16-1d4f-4ae3-bbd9-8bca8aeeffb2 ==============================
+[0m17:01:37.563084 [info ] [MainThread]: Running with dbt=1.7.13
+[0m17:01:37.564134 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\davel\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:01:37.600508 [info ] [MainThread]: dbt version: 1.7.13
+[0m17:01:37.602496 [info ] [MainThread]: python version: 3.11.9
+[0m17:01:37.603494 [info ] [MainThread]: python path: C:\Users\davel\AppData\Local\Programs\Python\Python311\python.exe
+[0m17:01:37.604493 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m17:01:38.073133 [info ] [MainThread]: Using profiles dir at C:\Users\davel\.dbt
+[0m17:01:38.074134 [info ] [MainThread]: Using profiles.yml file at C:\Users\davel\.dbt\profiles.yml
+[0m17:01:38.075125 [info ] [MainThread]: Using dbt_project.yml file at D:\SelfLearning\Analytics Engineer\analytics-engineering-bootcamp\dbt_project.yml
+[0m17:01:38.076125 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:01:38.077124 [debug] [MainThread]: Command `dbt debug` failed at 17:01:38.077124 after 0.59 seconds
+[0m17:01:38.078163 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9EE616590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9EE608490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E9EE26CCD0>]}
+[0m17:01:38.078163 [debug] [MainThread]: Flushing usage events
